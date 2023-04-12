@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>BonzaÏ</title>
+   <link rel="icon" type="image/png" href="favicon.png" />
+   <link rel="stylesheet" type="text/css" href="styles.css" />
+   </head>
+   <body>
+      <header>
+         <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="outil.html">Outil</a></li>
+            <li><a href="about.html">A propos</a></li>
+         </ul>
+      </header>
+      <body>
+         <main>
+            <h2 class="abt">À propos de nous</h2>
+            <p  class="abt2">Nous sommes un groupe d'étudiants à l'école EPSI travaillant sur un projet MSPR axé sur la reconnaissance de plantes à l'aide de l'IA.</p>
+            <h2 class="abt3">Notre équipe</h2>
+            <ul class="ab">
+               <li class="abb">Zenaidi Wassim</li>
+               <li class="abb">Michaël Lapeyrère </li>
+               <li class="abb">Liam Thireau </li>
+               <li class="abb">Mathurin Ratié</li>
+            </ul>
+         </main>
+         <footer class="footer">
+            <div class="footerbox">
+               <div class="row">
+                  <div class="footer-col">
+                     <div class="contact">
+                        <h4>Contact</h4>
+                        <ul>
+                           <li><a>7 rue du jardin</a></li>
+                           <li><a>bonzai@outlook.fr</a></li>
+                           <li><a>07 63 44 29 38</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="footer-col">
+                     <div class="legal">
+                        <h4>Legal</h4>
+                        <ul class="">
+                           <li><a class="btn" onclick="openPopup()">Protection des données</a></li>
+                           <li><a class="btn" onclick="openPopup2()">Mentions légales</a></li>
+                           <li><a class="btn" onclick="openPopup3()">Cookies</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="footer-col">
+                     <div class="photo">
+                        <img src="logo.png" height="155px" width="245px">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+         <div class="open-btn">
+         </div>
+         <div class="popup-box">
+            <div class="popup" id="popup">
+               <div class="en-tete-popup">
+                  <div class="logo-BONZAI-popup">
+                     <img src="logo.png" srcset="logo.png 2x" alt="Bonzai" width="150">
+                  </div>
+                  <br>
+                  <div class="titre-popup">
+                     <h3 class="text-center">Protection des données</h3>
+                  </div>
+                  <br>
+                  <h5 class="text-center">Le but de cette politique de confidentialité est d'informer les utilisateurs de notre site des données personnelles que nous recueillerons ainsi que les informations suivantes, le cas échéant :</h5>
+                  <br>
+               </div>
+               <div class="Corps-popup">
+                  <ol>
+                     <li>Les données personnelles que nous recueillerons
+                     </li>
+                     <li>L’utilisation des données recueillies
+                     </li>
+                     <li>Qui a accès aux données recueillies
+                     </li>
+                     <li>Les droits des utilisateurs du site
+                     </li>
+                     <li>La politique de cookies du site
+                     </li>
+                  </ol>
+                  <br>
+                  <p>Cette politique de confidentialité fonctionne parallèlement aux conditions générales d’utilisation de notre site.
+                  </p>
+                  <p><span style="font-style:normal;font-weight:bold;text-decoration:underline;">Lois applicables</span><br>
+                  </p>
+                  <p>Conformément au <span style="font-style:italic;font-weight:normal;">Règlement général sur la protection des données</span> (RGPD), cette politique de confidentialité est conforme aux règlements suivants.<br><br>Les données à
+                     caractère personnel doivent être :
+                  </p>
+                  <br>
+                  <ol>
+                     <li value="1"><span>traitées de manière licite, loyale et transparente au regard de la personne concernée (licéité, loyauté, transparence) ;</span>
+                     </li>
+                     <br>
+                     <li value="2"><span>collectées pour des finalités déterminées, explicites et légitimes, et ne pas être traitées ultérieurement d'une manière incompatible avec ces finalités; le traitement ultérieur à des fins archivistiques
+                        dans l'intérêt public, à des fins de recherche scientifique ou historique ou à des fins statistiques n'est pas considéré, conformément à l'article 89, paragraphe 1, comme incompatible avec les finalités initiales
+                        (limitation des finalités) ;</span>
+                     </li>
+                     <br>
+                     <li value="3"><span>adéquates, pertinentes et limitées à ce qui est nécessaire au regard des finalités pour lesquelles elles sont traitées (minimisation des données) ;</span>
+                     </li>
+                     <br>
+                     <li><span>exactes et, si nécessaire, tenues à jour; toutes les mesures raisonnables doivent être prises pour que les données à caractère personnel qui sont inexactes, eu égard aux finalités pour lesquelles elles sont traitées,
+                        soient effacées ou rectifiées sans tarder (exactitude) ;</span>
+                     </li>
+                     <br>
+                     <li><span>conservées sous une forme permettant l'identification des personnes concernées pendant une durée n'excédant pas celle nécessaire au regard des finalités pour lesquelles elles sont traitées; les données à caractère
+                        personnel peuvent être conservées pour des durées plus longues dans la mesure où elles seront traitées exclusivement à des fins archivistiques dans l'intérêt public, à des fins de recherche scientifique ou historique ou à
+                        des fins statistiques conformément à l'article 89, paragraphe 1, pour autant que soient mises en œuvre les mesures techniques et organisationnelles appropriées requises par le règlement afin de garantir les droits et
+                        libertés de la personne concernée (limitation de la conservation) ;</span>
+                     </li>
+                     <br>
+                     <li><span>traitées de façon à garantir une sécurité appropriée des données à caractère personnel, y compris la protection contre le traitement non autorisé ou illicite et contre la perte, la destruction ou les dégâts d'origine
+                        accidentelle, à l'aide de mesures techniques ou organisationnelles appropriées (intégrité et confidentialité).<br></span>
+                     </li>
+                     <br>
+                  </ol>
+                  <p>Le traitement n'est licite que si, et dans la mesure où, au moins une des conditions suivantes est remplie :
+                  </p>
+                  <ol>
+                     <br>
+                     <li><span>la personne concernée a consenti au traitement de ses données à caractère personnel pour une ou plusieurs finalités spécifiques ;</span>
+                     </li>
+                     <br>
+                     <li><span>le traitement est nécessaire à l'exécution d'un contrat auquel la personne concernée est partie ou à l'exécution de mesures précontractuelles prises à la demande de celle-ci ;</span>
+                     </li>
+                     <br>
+                     <li><span>le traitement est nécessaire au respect d'une obligation légale à laquelle le responsable du traitement est soumis ;</span>
+                     </li>
+                     <br>
+                     <li><span>le traitement est nécessaire à la sauvegarde des intérêts vitaux de la personne concernée ou d'une autre personne physique ;</span>
+                     </li>
+                     <br>
+                     <li><span>le traitement est nécessaire à l'exécution d'une mission d'intérêt public ou relevant de l'exercice de l'autorité publique dont est investi le responsable du traitement ;</span>
+                     </li>
+                     <br>
+                     <li><span>le traitement est nécessaire aux fins des intérêts légitimes poursuivis par le responsable du traitement ou par un tiers, à moins que ne prévalent les intérêts ou les libertés et droits fondamentaux de la personne
+                        concernée qui exigent une protection des données à caractère personnel, notamment lorsque la personne concernée est un enfant.</span>
+                     </li>
+                     <br>
+                  </ol>
+                  <p>Pour les résidents de l’État de Californie, cette politique de confidentialité vise à se conformer à la <span style="font-style:italic;font-weight:normal;">California Consumer Privacy Act (CCPA)</span>. S’il y a des
+                     incohérences entre ce document et la <span style="font-style:italic;font-weight:normal;">CCPA</span>, la législation de l’État s’appliquera. Si nous constatons des incohérences, nous modifierons notre politique pour nous
+                     conformer à la loi pertinente.
+                  </p>
+                  <br>
+                  <p><span style="font-style:normal;font-weight:bold;text-decoration:underline;">Consentement</span><br><br>Les utilisateurs conviennent qu’en utilisant notre site, ils consentent à :
+                  </p>
+                  <ol>
+                     <br>
+                     <li><span>les conditions énoncées dans la présente politique de confidentialité et</span>
+                     </li>
+                     <br>
+                     <li><span>la collecte, l’utilisation et la conservation des données énumérées dans la présente politique.</span>
+                     </li>
+                  </ol>
+                  <br>
+                  <p><span style="font-style:normal;font-weight:bold;text-decoration:underline;">Données personnelles que nous collectons</span>
+                  </p>
+                  <br>
+                  <p><span style="font-style:normal;font-weight:bold;">Données collectées automatiquement</span>
+                  </p>
+                  <br>
+                  <p>Cookies de mesure d’audience et de statistiques, pour nos besoins d'audience via Google Analytics.
+                  </p>
+                  <br>
+                  <p><span style="font-style:normal;font-weight:bold;">Données recueillies de façon non automatique</span>
+                  </p>
+                  <br>
+                  <p>Nous pouvons également collecter les données suivantes lorsque vous effectuez certaines fonctions sur notre site.
+                  </p>
+                  <p>Ces données peuvent être recueillies au moyen des méthodes suivantes&nbsp;:
+                  </p>
+                  <br>
+                  <p>Via le formulaire de contact : Nom, prénom, email, téléphone etc...
+                  </p>
+                  <br>
+                  <p>Ce formulaire a pour but de collecter des informations pour faciliter votre devis de débarras et ne sera pas vendu à des tiers.
+                  </p>
+                  <br>
+                  <p>Ces informations sont gardées pour nous permettre de répondre aux demandes officielles d’autorités publiques ou judiciaires habilitées à cet effet (obligation légale) et nous permettre de traiter les demandes d’exercice de droits
+                     (obligation légale)
+                  </p>
+                  <br>
+                  <p>Veuillez noter que nous ne collectons que les données qui nous aident à atteindre l’objectif énoncé dans cette politique de confidentialité. Nous ne recueillerons pas de données supplémentaires sans vous en informer au
+                     préalable.
+                  </p>
+                  <br>
+                  <p>Nous ne collectons aucune donnée sensible, à savoir aucune donnée relative à vos origines raciales ou ethniques, à vos opinions politiques, philosophiques ou religieuses ou votre appartenance syndicale, ou qui sont relatives à
+                     votre santé ou votre vie sexuelle.
+                  </p>
+                  <br>
+                  <p><span style="font-style:normal;font-weight:bold;text-decoration:underline;">Comment nous utilisons les données personnelles</span><br><br>Les données personnelles recueillies sur notre site seront utilisées uniquement aux
+                     fins
+                     précisées dans la présente politique ou indiquées sur les pages pertinentes de notre site. Nous n’utiliserons pas vos données au-delà de ce que nous divulguerons.
+                  </p>
+                  <br>
+                  <p>Les données que nous recueillons lorsque l’utilisateur exécute certaines fonctions peuvent être utilisées aux fins suivantes&nbsp;:
+                  </p>
+                  <br>
+                  <p><span style="font-style:normal;font-weight:bold;text-decoration:underline;">Avec qui nous partageons les données personnelles</span>
+                  </p>
+                  <br>
+                  <p><span style="font-style:normal;font-weight:bold;">Employés</span><br>Nous pouvons divulguer à tout membre de notre organisation les données utilisateur dont il a raisonnablement besoin pour réaliser les objectifs énoncés dans
+                     la présente politique.
+                  </p>
+                  <br>
+                  <p>Les tiers ne seront pas en mesure d’accéder aux données des utilisateurs au-delà de ce qui est raisonnablement nécessaire pour atteindre l’objectif donné.
+                  </p>
+                  <br>
+                  <p><span style="font-style:normal;font-weight:bold;">Autres divulgations</span><br>Nous nous engageons à ne pas vendre ou partager vos données avec des tiers, sauf dans les cas suivants&nbsp;:
+                  </p>
+                  <br>
+                  <ol>
+                     <li><span>si la loi l'exige</span>
+                     </li>
+                     <br>
+                     <li><span>si elle est requise pour toute procédure judiciaire</span>
+                     </li>
+                     <br>
+                     <li><span>pour prouver ou protéger nos droits légaux</span>
+                     </li>
+                     <br>
+                     <li><span>à des acheteurs ou des acheteurs potentiels de cette société dans le cas où nous cherchons à la vendre la société</span>
+                     </li>
+                     <br>
+                  </ol>
+                  <p>Si vous suivez des hyperliens de notre site vers un autre site, veuillez noter que nous ne sommes pas responsables et n’avons pas de contrôle sur leurs politiques et pratiques de confidentialité.
+                  </p>
+                  <br>
+                  <p><span style="font-style:normal;font-weight:bold;text-decoration:underline;">Combien de temps nous stockons les données personnelles</span><br><br>Nous ne conservons pas les données des utilisateurs au-delà de ce qui est
+                     nécessaire pour atteindre les fins pour lesquelles elles sont recueillies.
+                  </p>
+                  <br>
+                  <p><span style="font-style:normal;font-weight:bold;text-decoration:underline;">Comment nous protégeons vos données personnelles</span><br><br>Toutes les données stockées dans notre système sont bien sécurisées et ne sont
+                     accessibles
+                     qu’à nos employés. Nos employés sont liés par des accords de confidentialité stricts et une violation de cet accord entraînerait le licenciement de l'employé.<br><br>Alors que nous prenons toutes les précautions raisonnables
+                     pour nous assurer que nos données d’utilisateur sont sécurisées et que les utilisateurs sont protégés, il reste toujours du risque de préjudice. L’Internet en sa totalité peut être, parfois, peu sûr et donc nous sommes incapables de garantir la sécurité des données des utilisateurs au-delà de ce qui est raisonnablement pratique.
+                  </p>
+                  <br>
+                  <p><span style="font-style:normal;font-weight:bold;text-decoration:underline;">Mineurs</span>
+                  </p>
+                  <p>Le RGPD précise que les personnes de moins de 15 ans sont considérées comme des mineurs aux fins de la collecte de données. Les mineurs doivent avoir le consentement d’un représentant légal pour que leurs données soient
+                     recueillies, traitées et utilisées.
+                  </p>
+                  <br>
+                  <p><span style="font-style:normal;font-weight:bold;text-decoration:underline;">Vos droits en tant qu’utilisateur</span>
+                  </p>
+                  <br>
+                  <p>En vertu du RGPD, les utilisateurs ont les droits suivants en tant que personnes concernées :
+                  </p>
+                  <br>
+                  <ol>
+                     <li value="1"><span>droit d’accès</span>
+                     </li>
+                     <br>
+                     <li value="2"><span>droit de rectification</span>
+                     </li>
+                     <br>
+                     <li value="3"><span>droit à l’effacement</span>
+                     </li>
+                     <br>
+                     <li value="4"><span>droit de restreindre le traitement</span>
+                     </li>
+                     <br>
+                     <li value="5"><span>droit à la portabilité des données</span>
+                     </li>
+                     <br>
+                     <li style="margin-bottom:0.0pt;" value="6"><span>droit d'objection</span>
+                     </li>
+                     <br>
+                  </ol>
+                  <p>Vous trouverez de plus amples informations sur ces droits au chapitre 3 (art 12-23) du RGPD.
+                  </p>
+                  <br>
+                  <p><span style="font-style:normal;font-weight:bold;text-decoration:underline;">Comment modifier, supprimer ou contester les données recueillies</span><br><br>Si vous souhaitez que vos renseignements soient supprimés ou modifiés
+                     d’une façon ou d’une autre, veuillez communiquer avec notre agent de protection de la vie privée ici :
+                  </p>
+                  <br>
+                  <p>BONZAI<br><a href="mailto:bonzai@outlook.fr">bonzai@outlook.fr</a><br>
+                     <a href="tel:+33613477916"> 06 13 47 79 16</a>
+                  </p>
+                  <br>
+                  <p><span style="font-style:normal;font-weight:bold;text-decoration:underline;">Politique sur les cookies (rappel)</span><br><br>Un cookie est un petit fichier, stocké sur le disque dur d’un utilisateur par le site Web. Son but est
+                     de
+                     recueillir des données relatives aux habitudes de navigation de l’utilisateur.
+                  </p>
+                  <br>
+                  <p>Nous n’utilisons pas de cookies sur notre site.
+                  </p>
+                  <br>
+                  <p><span style="font-style:normal;font-weight:bold;text-decoration:underline;">Modifications</span>
+                  </p>
+                  <br>
+                  <p>Cette politique de confidentialité peut être modifiée à l’occasion afin de maintenir la conformité avec la loi et de tenir compte de tout changement à notre processus de collecte de données. Nous recommandons à nos
+                     utilisateurs
+                     de vérifier notre politique de temps à autre pour s’assurer qu’ils soient informés de toute mise à jour. Au besoin, nous pouvons informer les utilisateurs par courriel des changements apportés à cette politique.
+                  </p>
+                  <br>
+                  <p></p>
+                  <br>
+                  <p><span style="font-style:normal;font-weight:bold;text-decoration:underline;">Contact</span>
+                  </p>
+                  <br>
+                  <p>Si vous avez des questions à nous poser, n’hésitez pas à communiquer avec nous en utilisant ce qui suit&nbsp;: <a href="mailto:contact@BONZAI.fr">contact@BONZAI.fr</a>
+                  </p>
+                  <br>
+                  <li>Le client peut déposer une plainte auprès de la<a target="_blank" href="https://www.cnil.fr/fr/plaintes"><span class="tooltip-custom" data-toggle="tooltip" data-placement="top" title=""
+                     data-original-title="Commission nationale de l'informatique et des libertés">CNIL</span></a> </li>
+                  <br>
+               </div>
+               <button type="button" class="btn-cancel" onclick="closePopup()">Fermer</button>
+            </div>
+         </div>
+         <div class="open-btn2"></div>
+         <div class="popup-box2">
+         <div class="popup2" id="popup2">
+            <div class="en-tete-popup2">
+               <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               <div class="logo-popup2">
+                  <img src="logo.png" srcset="logo.png 2x" alt="BONZAI" width="150">
+               </div>
+               <br>
+               <h3 class="titre-popup2">Mentions Légales</h3>
+               <br><br><br><br>
+            </div>
+            <div class="Corps-popup2">
+               <p>
+               <ul>
+                  <li>Raison sociale : BONZAI</li>
+                  <li>Adresse du siège social : 7 RUE DU JARDIN</li>
+                  <li>Numéro de téléphone : 07 63 44 29 38</li>
+                  <li>Adresse de courrier électronique : : contact@BONZAI.fr</li>
+                  <li>Forme juridique de la société : SARL</li>
+                  <li>Montant du capital social : 1 200,00 €</li>
+                  <li>Nom du directeur de la publication : ZENAIDI WASSIM</li>
+               </ul>
+               <br>
+               <p>Nom, dénomination et adresse et numéro de téléphone de l'hébergeur de notre site :</p>
+               <br>
+               <ul>
+                  <li>Notre site est hébergé en France sur les serveurs de la société OVH </li>
+                  <li>Adresse web : www.ovh.com</li>
+                  <li>Adresse Postale : 2 rue Kellermann, BP 80157, 59053 ROUBAIX Cedex 1, France</li>
+                  <li>Téléphone : +33 (0)8 203 203 63</li>
+                  <li>Adresse électronique (E-mail) : support@ovh.com</li>
+               </ul>
+               <br>
+               </p>
+               <p>
+               <ul>
+                  <li>Registre du commerce et des sociétés : Nantes B 853 436 537</li>
+                  <li>Assujettie à la TVA : Numéro TVA Intracommunautaire FR2I853496537</li>
+                  <li class="text-flex">Conditions générales de vente (CGV) : sont consultables <a data-bs-toggle="modal" data-bs-target="#cgv">ici.</a></li>
+               </ul>
+               <br>
+               </p>
+               <h3>Utilité et l'utilisation des cookies</h3>
+               <br>
+               <p>Le cookie se définit comme un fichier enregistré par l’outil de navigation de la machine dans un espace de stockage dédié. Il est stocké au cours de la consultation d’un site web. Son enregistrement dans le disque dur ne
+                  donne aucunement lieu à la divulgation d’informations personnelles concernant l’internaute. Grâce à ce fichier texte, le site web peut identifier le terminal dans lequel il est déposé et mémoriser les informations nécessaires
+                  à son parcours.
+               </p>
+               <br>
+               <p>Ce sont des fichiers uniques. Pour répondre à la question de <b>comment savoir si un site utilise des cookies</b>, il suffit d’ouvrir le site et un message d’avertissement apparaît. Cette fenêtre, aussi appelée <b>pop up de
+                  cookies</b>, permet aux internautes de consentir à l’utilisation de cookies à chaque visite sur la plateforme. Elle n’apparaît généralement qu’une seule fois.
+               </p>
+               <br>
+               <p>Retrouver toute nos Protection des données ou RGPD (Règlement Général sur la Protection des Données) <a data-bs-toggle="modal" data-bs-target="#modal-rgpd"> Ici.</a></p>
+               <br>
+               <ul class="list-arrow">
+                  <li data-test="reference">
+                     <p class="panel-link"><a href="https://www.legifrance.gouv.fr/codes/id/LEGISCTA000032227144/" title="Code de la consommation&nbsp;: articles L131-1 à L131-4 - www.legifrance.gouv.fr - nouvelle_fenetre" target="_blank"
+                        rel="noopener noreferrer" data-xiti-name="Professionnels::Vos_droits::textes_de_reference::https://www.legifrance.gouv.fr/codes/id/LEGISCTA000032227144/" data-xiti-type="exit">Code de la consommation&nbsp;:
+                        articles L131-1 à L131-4&nbsp;<span aria-hidden="true" class="icon icon-external-link"></span></a>
+                     </p>
+                     <p class="panel-source" data-test="referenceComplement">Obligation générale d'information précontractuelle</p>
+                  </li>
+                  <li data-test="reference">
+                     <p class="panel-link"><a href="https://www.legifrance.gouv.fr/affichCode.do?idSectionTA=LEGISCTA000032807114&amp;cidTexte=LEGITEXT000006069565"
+                        title="Code de la consommation&nbsp;: article R111-1 - www.legifrance.gouv.fr - nouvelle_fenetre" target="_blank" rel="noopener noreferrer"
+                        data-xiti-name="Professionnels::Vos_droits::textes_de_reference::https://www.legifrance.gouv.fr/affichCode.do?idSectionTA=LEGISCTA000032807114&amp;cidTexte=LEGITEXT000006069565" data-xiti-type="exit">Code de la
+                        consommation&nbsp;: article R111-1&nbsp;<span aria-hidden="true" class="icon icon-external-link"></span></a>
+                     </p>
+                     <p class="panel-source" data-test="referenceComplement">Obligation d'information précontractuelle</p>
+                  </li>
+                  <li data-test="reference">
+                     <p class="panel-link"><a href="https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000032221079/#LEGISCTA000032227146"
+                        title="Code de la consommation&nbsp;: articles L131-1 à L131-6 - www.legifrance.gouv.fr - nouvelle_fenetre" target="_blank" rel="noopener noreferrer"
+                        data-xiti-name="Professionnels::Vos_droits::textes_de_reference::https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000032221079/#LEGISCTA000032227146" data-xiti-type="exit">Code de la
+                        consommation&nbsp;: articles L131-1 à L131-6&nbsp;<span aria-hidden="true" class="icon icon-external-link"></span></a>
+                     </p>
+                     <p class="panel-source" data-test="referenceComplement">Sanctions de l'obligation générale d'information précontractuelle</p>
+                  </li>
+                  <li data-test="reference">
+                     <p class="panel-link"><a href="https://www.legifrance.gouv.fr/affichCode.do?idSectionTA=LEGISCTA000006165313&amp;cidTexte=LEGITEXT000006070719"
+                        title="Code pénal&nbsp;: articles 226-16 à 226-24 - www.legifrance.gouv.fr - nouvelle_fenetre" target="_blank" rel="noopener noreferrer"
+                        data-xiti-name="Professionnels::Vos_droits::textes_de_reference::https://www.legifrance.gouv.fr/affichCode.do?idSectionTA=LEGISCTA000006165313&amp;cidTexte=LEGITEXT000006070719" data-xiti-type="exit">Code
+                        pénal&nbsp;: articles 226-16 à 226-24&nbsp;<span aria-hidden="true" class="icon icon-external-link"></span></a>
+                     </p>
+                     <p class="panel-source" data-test="referenceComplement">Sanctions en cas d'atteintes aux droits de la personne résultant des fichiers ou des traitements informatiques (partie législative)</p>
+                  </li>
+                  <li data-test="reference">
+                     <p class="panel-link"><a href="https://www.legifrance.gouv.fr/affichCode.do?idSectionTA=LEGISCTA000006165426&amp;cidTexte=LEGITEXT000006070719"
+                        title="Code pénal&nbsp;: articles R625-10 à R 625-13 - www.legifrance.gouv.fr - nouvelle_fenetre" target="_blank" rel="noopener noreferrer"
+                        data-xiti-name="Professionnels::Vos_droits::textes_de_reference::https://www.legifrance.gouv.fr/affichCode.do?idSectionTA=LEGISCTA000006165426&amp;cidTexte=LEGITEXT000006070719" data-xiti-type="exit">Code
+                        pénal&nbsp;: articles R625-10 à R 625-13&nbsp;<span aria-hidden="true" class="icon icon-external-link"></span></a>
+                     </p>
+                     <p class="panel-source" data-test="referenceComplement">Sanctions en cas d'atteintes aux droits de la personne résultant des fichiers ou des traitements informatiques (partie réglementaire)</p>
+                  </li>
+                  <li data-test="reference">
+                     <p class="panel-link"><a href="https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000032236011/"
+                        title="Loi n°2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique&nbsp;: article 19 - www.legifrance.gouv.fr - nouvelle_fenetre" target="_blank" rel="noopener noreferrer"
+                        data-xiti-name="Professionnels::Vos_droits::textes_de_reference::https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000032236011/" data-xiti-type="exit">Loi n°2004-575 du 21 juin 2004 pour la confiance dans
+                        l'économie numérique&nbsp;: article 19&nbsp;<span aria-hidden="true" class="icon icon-external-link"></span></a>
+                     </p>
+                     <p class="panel-source" data-test="referenceComplement">Principes généraux du commerce électronique</p>
+                  </li>
+                  <li data-test="reference">
+                     <p class="panel-link"><a href="http://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000023711900&amp;cidTexte=LEGITEXT000005789847"
+                        title="Loi n°2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique&nbsp;: article 6 - www.legifrance.gouv.fr - nouvelle_fenetre" target="_blank" rel="noopener noreferrer"
+                        data-xiti-name="Professionnels::Vos_droits::textes_de_reference::http://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000023711900&amp;cidTexte=LEGITEXT000005789847" data-xiti-type="exit">Loi
+                        n°2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique&nbsp;: article 6&nbsp;<span aria-hidden="true" class="icon icon-external-link"></span></a>
+                     </p>
+                     <p class="panel-source" data-test="referenceComplement">Communication au public en ligne</p>
+                  </li>
+                  <li data-test="reference">
+                     <p class="panel-link"><a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000571009/"
+                        title="Décret n°98-247 du 2 avril 1998 relatif à la qualification artisanale et au répertoire des métiers - www.legifrance.gouv.fr - nouvelle_fenetre" target="_blank" rel="noopener noreferrer"
+                        data-xiti-name="Professionnels::Vos_droits::textes_de_reference::https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000571009/" data-xiti-type="exit">Décret n°98-247 du 2 avril 1998 relatif à la qualification
+                        artisanale et au répertoire des métiers&nbsp;<span aria-hidden="true" class="icon icon-external-link"></span></a>
+                     </p>
+                     <p class="panel-source" data-test="referenceComplement">Qualité d'artisan et inscription au répertoire des métiers</p>
+                  </li>
+                  <li data-test="reference">
+                     <p class="panel-link"><a href="https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006197182/" title="Code général des impôts&nbsp;: articles 34 à 35 A - www.legifrance.gouv.fr - nouvelle_fenetre" target="_blank"
+                        rel="noopener noreferrer" data-xiti-name="Professionnels::Vos_droits::textes_de_reference::https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006197182/" data-xiti-type="exit">Code général des impôts&nbsp;:
+                        articles 34 à 35 A&nbsp;<span aria-hidden="true" class="icon icon-external-link"></span></a>
+                     </p>
+                     <p class="panel-source" data-test="referenceComplement">Bénéfices industriels et commerciaux</p>
+                  </li>
+               </ul>
+               <button type="button" class="btn-cancel2" onclick="closePopup2()">Fermer</button>
+            </div>
+         </div>
+         <div class="open-btn3">
+         </div>
+         <div class="popup-box3">
+            <div class="popup3" id="popup3">
+               <div class="en-tete-popup3">
+                  <div class="logo-popup3">
+                     <img src="logo.png" srcset="logo.png 2x" alt="BONZAI" width="150">
+                  </div>
+                  <br>
+                  <h3 class="titre-popup3">Cookies</h3>
+                  <br><br><br><br>
+               </div>
+               <div class="Corps-popup3">
+                  <h1>Votre confidentialité est importante pour nous</h1>
+                  <p>
+                     Les cookies sont de très petits fichiers texte qui sont stockés sur votre ordinateur lorsque vous visitez un site Web. Nous utilisons des cookies à diverses fins et pour améliorer votre expérience en ligne sur notre site Web (par exemple, pour mémoriser les informations de connexion de votre compte).
+                  </p>
+                  <br>
+                  <p>
+                     Vous pouvez modifier vos préférences et refuser l'enregistrement de certains types de cookies sur votre ordinateur lors de la navigation sur notre site. Vous pouvez également supprimer les cookies déjà stockés sur votre ordinateur, mais gardez à l'esprit que leur suppression peut vous empêcher d'utiliser des éléments de notre site Web.
+                  </p>
+                  <br>
+                  <h2>Pour plus d'informations</h2>
+                  <p>
+                     Pour toute question relative à notre politique en matière de cookies et à vos choix, veuillez nous contacter.
+                  </p>
+                  <br>
+                  <p><a href="mailto:contact@BONZAI.fr">contact@BONZAI.fr</a><br>
+                     <a href="tel:+33613477916"> 07 63 44 29 38</a>
+                  </p>
+                  <br>
+                  <button type="button" class="btn-cancel3" onclick="closePopup3()">Fermer</button>
+               </div>
+            </div>
+         </div>
+         <script>
+            window.addEventListener("scroll", reveal);
+            function openPopup() {
+              document.getElementById("popup").style.display = "block";
+            }
+            
+            function closePopup() {
+              document.getElementById("popup").style.display = "none";
+            }
+            
+            function openPopup2() {
+              document.getElementById("popup2").style.display = "block";
+            }
+            
+            function closePopup2() {
+              document.getElementById("popup2").style.display = "none";
+            }
+            
+            function openPopup3() {
+              document.getElementById("popup3").style.display = "block";
+            }
+            
+            function closePopup3() {
+              document.getElementById("popup3").style.display = "none";
+            }
+         </script>
+         <style>
+            .footerbox{
+            max-width: 11770px;
+            margin: auto;
+            }
+            ul{
+            list-style: none;
+            }
+            .row{
+            display: flex;
+            flex-wrap: wrap;
+            }
+            .footer{
+            background-color: rgb(7, 113, 109);
+            padding: 60px 0;
+            }
+            body{
+            background-color: rgb(7, 113, 109);
+            }
+            .footer-col{
+            width: 25%;
+            padding: 0 15px;
+            }
+            .footer-col h4{
+            font-size: 18px;
+            color:#ffffff;
+            text-transform: uppercase;
+            margin-bottom: 35px;
+            font-weight: 500;
+            position: relative;
+            }
+            .footer-col h4::before{
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            background-color:gold ;
+            height: 2px;
+            box-sizing: border-box;
+            width: 50px;
+            }
+            .footer-col img{
+            size: 25%;
+            }
+            .footer-col p{
+            margin-top: 15px;
+            font-size:16px;
+            color:#ffffff;
+            }
+            .footer-col ul li:not(:last-child){
+            margin-bottom: 10px;
+            }
+            .footer-col ul li a{
+            font-size:13px;
+            color:#ffffff;
+            text-decoration: none;
+            font-weight: 300;
+            display: block;
+            transition: all 0.3s ease;
+            }
+            .footer-col ul li a:hover{
+            padding-left: 15px;
+            color: gold;
+            }
+            @media(max-width: 767px){
+            .footer-col{
+            width: 50%;
+            margin-bottom: 30px;
+            }
+            }
+            .open-btn {
+            display: flex;
+            justify-content: flex-start;
+            }
+            .popup-box {
+            position: relative;
+            text-align: center;
+            width: 100%;
+            }
+            /* Masquez la forme Popup */
+            .popup {
+            display: none;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border: 2px solid #666;
+            z-index: 9;
+            background-color: white;
+            padding: 100px;
+            border-radius: 12px;
+            max-height: 500px;
+            overflow-y:scroll;
+            }
+            .popup::-webkit-scrollbar
+            {
+            width: 10px;
+            }
+            ::-webkit-scrollbar-thumb
+            {
+            background-color: rgb(18, 231, 153);
+            border-radius: 12px;
+            }
+            .popup h1{
+            margin-bottom: 100px;
+            }
+            /*------------------------------------------*/
+            .open-btn2 {
+            display: flex;
+            justify-content: flex-start;
+            }
+            .popup-box2 {
+            position: relative;
+            text-align: center;
+            width: 100%;
+            }
+            /* Masquez la forme Popup */
+            .popup2 {
+            display: none;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border: 2px solid #666;
+            z-index: 9;
+            background-color: white;
+            padding: 100px;
+            border-radius: 12px;
+            max-height: 500px;
+            overflow-y:scroll;
+            }
+            .popup2::-webkit-scrollbar
+            {
+            width: 10px;
+            }
+            ::-webkit-scrollbar-thumb
+            {
+            background-color: gold;
+            border-radius: 12px;
+            }
+            .popup2 h1{
+            margin-bottom: 100px;
+            }
+            /*------------------------------------------*/
+            .open-btn3 {
+            display: flex;
+            justify-content: flex-start;
+            }
+            .popup-box3 {
+            position: relative;
+            text-align: center;
+            width: 100%;
+            }
+            /* Masquez la forme Popup */
+            .popup3 {
+            display: none;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border: 2px solid #666;
+            z-index: 9;
+            background-color: white;
+            padding: 100px;
+            border-radius: 12px;
+            max-height: 500px;
+            overflow-y:scroll;
+            }
+            .popup3::-webkit-scrollbar
+            {
+            width: 10px;
+            }
+            ::-webkit-scrollbar-thumb
+            {
+            background-color: gold;
+            border-radius: 12px;
+            }
+            .popup3 h1{
+            margin-bottom: 10px;
+            }
+            .btn-cancel{
+            font-family: "Roboto", sans-serif;
+            font-size: 17px;
+            font-weight: bold;
+            background-color: gold;
+            color: white;
+            width: 120px;
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.319);
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+            -webkit-transition-property: box-shadow, transform;
+            transition-property: box-shadow, transform;
+            margin-left: -700px;
+            margin-top: 50px
+            }
+            .btn-cancel2{
+            font-family: "Roboto", sans-serif;
+            font-size: 17px;
+            font-weight: bold;
+            background-color: gold;
+            color: white;
+            width: 120px;
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.319);
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+            -webkit-transition-property: box-shadow, transform;
+            transition-property: box-shadow, transform;
+            margin-top: 50px;
+            }
+            .btn-cancel3{
+            font-family: "Roboto", sans-serif;
+            font-size: 17px;
+            font-weight: bold;
+            background-color: gold;
+            color: white;
+            width: 120px;
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.319);
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+            -webkit-transition-property: box-shadow, transform;
+            transition-property: box-shadow, transform;
+            margin-top: 50px;
+            }
+            .btn-cancel:hover, .btn-cancel:focus, .btn-cancel:active{
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.419);
+            /*-webkit-transform: scale(1.1);*/
+            }
+            .btn-cancel2:hover, .btn-cancel2:focus, .btn-cancel2:active{
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.419);
+            /*-webkit-transform: scale(1.1);*/
+            }
+            .btn-cancel3:hover, .btn-cancel3:focus, .btn-cancel3:active{
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.419);
+            /*-webkit-transform: scale(1.1);*/
+            }
+            .popup-box2 .popup2 .modal-content{
+            text-align: left;
+            }
+            .popup-box .popup .modal-content{
+            text-align: left;
+            }
+            .en-tete-popup{
+            text-align: center;
+            width: 500px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            position: relative;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            }
+            .Corps-popup{
+            text-align: left;
+            width: 800px;
+            }
+            .Corps-popup3{
+            text-align: left;
+            width: 800px;
+            }
+            .en-tete-popup3{
+            text-align: center;
+            width: 500px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            position: relative;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            }
+            .Corps-popup2{
+            text-align: left;
+            width: 800px;
+            }
+            .en-tete-popup2{
+            text-align: center;
+            width: 500px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            position: relative;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            }
+            .abt {
+            font-size: 30px;
+            justify-content: center;
+            text-align: center;
+            margin-top: 50px;
+            color: gold;
+            }
+            .abt3 {
+            font-size: 24px;
+            margin-top: 40px;
+            justify-content: center;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            color: gold;
+            }
+            .ab { 
+            margin-bottom: 20px;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            }
+            .abb {  
+            margin-bottom: 15px;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            }
+            .abt2{
+            justify-content: center;
+            text-align: center;
+            margin-top: 25px;
+            color: white;
+            }
+            body{
+            background-color: rgb(7, 113, 109);
+            }
+         </style>
+   </body>
+</html>
